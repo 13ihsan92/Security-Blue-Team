@@ -1,5 +1,5 @@
 # Security-Blue-Team
-> This repository will describe the details surrounding the SIEM (wazuh) mini project, which will cover all aspects of topology design, deployment, rules, integration, and fine tune.
+This repository will describe the details surrounding the SIEM (wazuh) mini project, which will cover all aspects of topology design, deployment, rules, integration, and fine tune.
 
 ## Topology & Prototype
 ![My Image](Images/Topology.jpg)

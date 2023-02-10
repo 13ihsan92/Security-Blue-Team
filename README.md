@@ -17,5 +17,6 @@ This repository will describe the details surrounding the SIEM (wazuh) mini proj
 - Related Security Experience: Security Analyst, Freelance Vulnerability Assessent
 - Certification: RHCSA, eJPT, CAP
 
-> Find on on our Telegram Group: [Pentesting Indonesia](t.me/PentestingIndonesia)
+> Find on on our Telegram Group: [Pentesting Indonesia](t.me/PentestingIndonesia).
+
 Please keep this repository active by contributing to this repo :)

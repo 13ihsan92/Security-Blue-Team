@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T06:32:00.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78" etag="4pwDrx8qEhIXtZ-iVJ7C" version="20.8.19" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-10T07:36:19.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78" etag="db7ymgkUxuFCrCNtXZ8L" version="20.8.19" type="github">
   <diagram name="Page-1" id="GwYC-b_EjRr_qeDUud27">
-    <mxGraphModel dx="833" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1282" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WCJweI1BIW7OrnVZNjCu-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeWidth=5;strokeColor=#000000;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=5;strokeColor=#000000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" y="80" width="1560" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="WCJweI1BIW7OrnVZNjCu-11" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000000;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.firewall;strokeWidth=5;" vertex="1" parent="1">
@@ -13,8 +13,132 @@
         <mxCell id="WCJweI1BIW7OrnVZNjCu-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.nsx_edge_and_load_balancer;strokeWidth=5;" vertex="1" parent="1">
           <mxGeometry x="650" y="100" width="98.77" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WCJweI1BIW7OrnVZNjCu-13" value="&lt;h1&gt;Perimeter FIrewall&lt;/h1&gt;&lt;p&gt;We will use PFSense act an perimeter firewall. With this current scenario and use case i&#39;ll use PFSense plugin to setup Load Balancer (HAProxy)&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-13" value="&lt;h1&gt;Perimeter Firewall&lt;/h1&gt;&lt;p&gt;We will use PFSense act an perimeter firewall. With this current scenario and use case i&#39;ll use PFSense plugin to setup Load Balancer (HAProxy)&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="980" y="100" width="221.63" height="139.98" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmVkYTJiM2ZhYywgMjAyMS8xMS8xNy0xNzoyMzoxOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjEgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjBDRjg3QTE1RERCRDExRUM5RDQ2OUNFMkZEMjAzNENEIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjBDRjg3QTE2RERCRDExRUM5RDQ2OUNFMkZEMjAzNENEIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MENGODdBMTNEREJEMTFFQzlENDY5Q0UyRkQyMDM0Q0QiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MENGODdBMTREREJEMTFFQzlENDY5Q0UyRkQyMDM0Q0QiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4ccgk/AAATcElEQVR42uyd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;" vertex="1" parent="1">
+          <mxGeometry x="280" y="305" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-16" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#000000;strokeColor=none;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.switch;" vertex="1" parent="1">
+          <mxGeometry x="758.63" y="320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-30" value="&lt;h1&gt;Legends&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Port Mirroring&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Syslog&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Network Traffics&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="870" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-32" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;strokeColor=#000000;strokeWidth=5;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="297" y="1010" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-35" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000000;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.connector;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="280" y="963" width="44" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-36" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.nsx_edge_and_load_balancer;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="380" y="310" width="98.77" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-38" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WCJweI1BIW7OrnVZNjCu-16" target="WCJweI1BIW7OrnVZNjCu-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="835" y="480" as="sourcePoint" />
+            <mxPoint x="563.77" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-40" value="&lt;h1&gt;SIEM&lt;/h1&gt;&lt;p&gt;We will use wazuh as SIEM (Log Management, Agregator, &amp;amp; Corelations) with extended capability such as XDR. Cluster Details: 2 indexer, 2 worker, 1 master, 1 dashboard, 1 bastion (load balancer, DNS, &amp;amp; DHCP server)&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="390" width="221.63" height="139.98" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-41" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WCJweI1BIW7OrnVZNjCu-16" target="WCJweI1BIW7OrnVZNjCu-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="340" as="sourcePoint" />
+            <mxPoint x="600" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-42" value="" style="shape=message;html=1;outlineConnect=0;strokeColor=#000000;strokeWidth=5;fillColor=none;gradientColor=none;" vertex="1" parent="WCJweI1BIW7OrnVZNjCu-41">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-43" value="Network Traffic" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-44" value="Port Mirroring" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-46" value="&lt;h1&gt;Core Switch&lt;/h1&gt;&lt;p&gt;Primary DNS, DHCP server, VLAN, &amp;amp; routings&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=right;" vertex="1" parent="1">
+          <mxGeometry x="660" y="390" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-49" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="256" y="930" as="sourcePoint" />
+            <mxPoint x="356" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-50" value="" style="shape=message;html=1;outlineConnect=0;strokeColor=#000000;strokeWidth=5;fillColor=none;gradientColor=none;" vertex="1" parent="WCJweI1BIW7OrnVZNjCu-49">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-54" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000000;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.datacenter;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="1223" y="297.5" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-55" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WCJweI1BIW7OrnVZNjCu-16" target="WCJweI1BIW7OrnVZNjCu-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="370" as="sourcePoint" />
+            <mxPoint x="1080" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-56" value="Network Traffic" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1044" y="310" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-60" value="&lt;h1&gt;DMZ&lt;/h1&gt;&lt;p&gt;Physical or logical subnetwork that contains and exposes an organization&#39;s external-facing services to an untrusted&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="297.5" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-61" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000000;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_farm;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="1207.93" y="462" width="137.14" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-62" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" edge="1" parent="1" source="WCJweI1BIW7OrnVZNjCu-61" target="WCJweI1BIW7OrnVZNjCu-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1276" y="460" as="sourcePoint" />
+            <mxPoint x="1233" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-63" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WCJweI1BIW7OrnVZNjCu-61" target="WCJweI1BIW7OrnVZNjCu-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="530" as="sourcePoint" />
+            <mxPoint x="960" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-64" value="Network Traffic" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1021.63" y="440" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-65" value="&lt;h1&gt;Server Farm&lt;/h1&gt;&lt;p&gt;Collection of computer servers, such as backend service, frontend service, database, active directory, etc&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="470" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-67" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000000;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.connector;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="1157.63" y="514" width="44" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-68" value="Syslog forwarding" style="text;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1121.63" y="548" width="80" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-74" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000000;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.connector;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="350.0000000000001" y="288" width="44" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-75" value="Syslog&lt;br&gt;Accepting" style="text;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270.0000000000001" y="283" width="80" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-79" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000000;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.connector;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="1163.93" y="360" width="44" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-80" value="Syslog forwarding" style="text;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1127.93" y="394" width="80" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-81" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#000000;strokeColor=none;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.modem;" vertex="1" parent="1">
+          <mxGeometry x="771.13" y="601.98" width="175" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-82" value="&lt;h1&gt;Switch&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-83" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WCJweI1BIW7OrnVZNjCu-81" target="WCJweI1BIW7OrnVZNjCu-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="500" as="sourcePoint" />
+            <mxPoint x="760" y="450" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

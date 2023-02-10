@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T05:57:26.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78" etag="_192xsrayJvwxGreMhWP" version="20.8.19" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-10T06:32:00.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.78" etag="4pwDrx8qEhIXtZ-iVJ7C" version="20.8.19" type="github">
   <diagram name="Page-1" id="GwYC-b_EjRr_qeDUud27">
     <mxGraphModel dx="833" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeWidth=5;strokeColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="1560" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-11" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000000;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.firewall;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="761.63" y="31" width="196.74" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.nsx_edge_and_load_balancer;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="650" y="100" width="98.77" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WCJweI1BIW7OrnVZNjCu-13" value="&lt;h1&gt;Perimeter FIrewall&lt;/h1&gt;&lt;p&gt;We will use PFSense act an perimeter firewall. With this current scenario and use case i&#39;ll use PFSense plugin to setup Load Balancer (HAProxy)&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="100" width="221.63" height="139.98" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

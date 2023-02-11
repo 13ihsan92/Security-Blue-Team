@@ -14,9 +14,11 @@ This repository will describe the details surrounding the SIEM (wazuh) mini proj
 ## Author
 - Name: san@NBA.stl~# (San Nabastala)
 - Volunter: Kamar Kamsib, Pentesting Indonesia, Orang Siber Indonesia
-- Related Security Experience: Security Analyst, Freelance Vulnerability Assessent
+- Related Security Experience: Security Analyst, Freelance Vulnerability Assessment
 - Certification: RHCSA, eJPT, CAP
 
 > Find me on our Telegram Group: [Pentesting Indonesia](https://t.me/PentestingIndonesia).
+
+If you want to discuss more about tech stack or anything else about this repo, feel free to contact me on linkedin, and we have private whatsapp group to develop this repo. So, if you want to join us... Please feel free to direct messages.
 
 Please keep this repository active by contributing to this repo :)

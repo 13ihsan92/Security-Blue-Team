@@ -5,7 +5,7 @@ This repository will describe the details surrounding the SIEM (wazuh) mini proj
 ![Topology](Images/Topology-jpg.jpg)
 
 ## Alerting Integration Schema
-![SchemaAlerts](Images/Images/SchemaAlertsIntegration.jpeg)
+![SchemaAlerts](Images/SchemaAlertsIntegration.jpeg)
 
 ## Docs & Articles
 [Notion](https://13ihsan92.notion.site/Documentation-san-NBA-stl-b5f06c8384c34fbb877a1313cffd7804)
